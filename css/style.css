@@ -109,5 +109,11 @@ ul.icons{
     align-items: center;
     justify-content: center;
 }
-
+.badges{
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+    font-size: 1rem;
+    color: white;
+}
 /* #endregion main */
