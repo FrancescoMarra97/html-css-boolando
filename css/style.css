@@ -7,7 +7,9 @@
 .d-flex{
     display: flex;
 }
-
+.sb{
+    justify-content: space-between;
+}
 img{
     max-width: 100%;
     display: block;
@@ -73,6 +75,9 @@ ul.icons{
 .debug main{
     height: 800px;
 }
+.debug footer{
+    height: 150px;
+}
 /* #endregion debug */
 
 /* #region main */
@@ -80,11 +85,14 @@ ul.icons{
 {
     display: flex;
     flex-wrap: wrap;
-
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+.card{
+    padding: 1rem;
 }
 .column{
-    width: calc(100% / 12)*4;
-    padding: 1rem;
+    width: calc((100 % / 12)*4);
 }
 .top{
     position: relative;
@@ -133,3 +141,10 @@ ul.icons{
     text-decoration: line-through;
 }
 /* #endregion main */
+/* #region footer */
+    #site_footer{
+        padding:2rem 0;
+        background-color: #1a1a1a;
+        color: white;
+    }
+/* #endregion footer */
