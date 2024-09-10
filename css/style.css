@@ -116,4 +116,20 @@ ul.icons{
     font-size: 1rem;
     color: white;
 }
+.sconto{
+    background-color: #ff0000;
+    padding: 0.25rem;
+    display: inline-block;
+}
+.categoria{
+    background-color: #008000;
+    padding: 0.25rem;
+    display: inline-block;
+}
+.scontato{
+    color:#ff0000
+}
+.originale{
+    text-decoration: line-through;
+}
 /* #endregion main */
