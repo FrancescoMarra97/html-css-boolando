@@ -98,5 +98,16 @@ ul.icons{
 .card:hover .back-card{
     display: block;
 }
+.like{
+    position:absolute;
+    right:0;
+    top:1rem;
+    background-color: #ffffff;
+    width:30px;
+    height: 3opx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* #endregion main */
