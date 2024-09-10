@@ -47,7 +47,6 @@ ul.gender{
     list-style: none;
     display: flex;
     gap: 0.5rem;
-    position: fixed;
 }
 
 .l-icn{
@@ -75,3 +74,29 @@ ul.icons{
     height: 800px;
 }
 /* #endregion debug */
+
+/* #region main */
+.riga
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.column{
+    width: calc(100% / 12)*4;
+    padding: 1rem;
+}
+.top{
+    position: relative;
+}
+.back-card{
+    display: none;
+}
+.card:hover .front-card{
+    display: none;
+}
+.card:hover .back-card{
+    display: block;
+}
+
+/* #endregion main */
