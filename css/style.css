@@ -92,7 +92,7 @@ ul.icons{
     padding: 1rem;
 }
 .column{
-    width: calc((100 % / 12)*4);
+    width: calc((100% / 12)*4);
 }
 .top{
     position: relative;
@@ -147,4 +147,5 @@ ul.icons{
         background-color: #1a1a1a;
         color: white;
     }
+    
 /* #endregion footer */
